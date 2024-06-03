@@ -123,7 +123,6 @@ setuptools.setup(
     python_requires='>=3.11',
     install_requires=[
         'absl-py',
-        #'chex',
         'dm-env',
         'dmlab2d',
         'dm-tree',
@@ -135,7 +134,6 @@ setuptools.setup(
         'pandas',
         'pygame',
         'reactivex',
-        #'tensorflow',
     ],
     extras_require={
         # Used in development.
