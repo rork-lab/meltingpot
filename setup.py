@@ -123,7 +123,7 @@ setuptools.setup(
     python_requires='>=3.11',
     install_requires=[
         'absl-py',
-        'chex',
+        #'chex',
         'dm-env',
         'dmlab2d',
         'dm-tree',
@@ -131,11 +131,11 @@ setuptools.setup(
         'ml-collections',
         'networkx',
         'numpy',
-        'opencv-python<4.7',
+        'opencv-python', #<4.7
         'pandas',
         'pygame',
         'reactivex',
-        'tensorflow',
+        #'tensorflow',
     ],
     extras_require={
         # Used in development.
